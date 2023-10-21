@@ -1,11 +1,11 @@
 import Input from "../AddInput";
 import Button from "../AddButton";
-import {AiOutlineCheck} from 'react-icons/ai'
+import {FaCheck} from 'react-icons/fa'
 
 export default function AddTask(props) {
   const {task,handleSubmit, handleChange} = props;
   return (
-    
+    //<Input>
       <form className= 'formulario' onSubmit={handleSubmit}>
         <input
         className="input"
@@ -17,8 +17,10 @@ export default function AddTask(props) {
         className="btn"
         type="submit"
         onClick = {handleSubmit}
-        ><AiOutlineCheck size='1.5rem' color='white'/>
+        ><FaCheck maxwidth='100%' height='auto' color='white'/>
         </button>
     </form>
+    //</Input>
+      
   )
 }

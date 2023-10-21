@@ -42,15 +42,18 @@ function App() {
  
 
   return (
+    
   <body className='container'>
-          <Header></Header>
-        <ul>
-    <AddTask
+    <div className='grid-layout'>
+    <Header></Header>
+      <div>
+      <AddTask
         task = {task}
         handleSubmit={handleSubmit}
         handleChange={handleChange}
-    />
-    </ul>
+      />
+      </div>  
+    
           <div>
           {
         taskList.map(task =>(
@@ -64,6 +67,8 @@ function App() {
         ))
         }
           </div>
+    </div>
+          
   </body>
     
   )
