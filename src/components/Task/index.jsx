@@ -1,3 +1,4 @@
+import styles from './styles.modules.scss'
 import {BsFillShareFill} from 'react-icons/bs'
 import {FaTrashAlt} from 'react-icons/fa'
 import {FaRegClipboard} from 'react-icons/fa'
@@ -11,27 +12,26 @@ function Task (props) {
             type="checkbox"
             checked={task.completed}
             onChange={() => onToggle(task.task)} />   
-              <label className='checkbox-label'>{task.task}</label>
-              
+              <p>{task.task}</p>
               <span>
                 {/*Boton borrar tarea*/}
                 <button className="btn-delete"
                   onClick={()=>onBorrarTarea(task.id)}
-                  ><FaTrashAlt maxwidth='50%' color='white' />
+                  ><FaTrashAlt maxwidth='50%' color='white'/>
                 </button>
               </span>
               <span>
                 {/*Boton compartir tarea*/}
                 <button className="btn-share"
-                  ><BsFillShareFill maxwidth='80%' color='white' />
+                  ><BsFillShareFill  maxwidth='50%' color='white' />
                 </button>
               </span>
-              <span>
+              <div>
                 {/*Boton copiar tarea*/}
                 <button className="btn-clipboard"
-                  ><FaRegClipboard maxwidth='100%' height='auto' color='white' />
+                  ><FaRegClipboard position='absolute' color='white' />
                 </button>
-            </span>
+            </div>
           </div>
 
         </>

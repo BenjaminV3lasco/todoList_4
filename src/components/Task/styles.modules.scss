@@ -1,0 +1,54 @@
+.contenedor_tarea{
+    max-width: 100%;
+    margin: 0% auto;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden; 
+    font-size: 24px;
+    font-family: 'Roboto';
+    color: white;
+    background-color: rgb(94, 92, 92);
+    margin-top: 25px;
+    margin-left: 30.8%;
+    width: 42%;
+    height: 3rem;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+ }
+ 
+ .btn-delete{
+    position: relative;
+    background-color:transparent;
+    margin-top: -5%;
+    margin-left: 1040%;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    border: solid 2px white;
+ }
+ 
+ .btn-share{
+    position: relative;
+    background-color:transparent;
+    margin-top: -5%;
+    margin-left: 808%;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    border: solid 2px white;
+ }
+ 
+ .btn-clipboard{
+    position: relative;
+    background-color:transparent;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -5%;
+    margin-left: 580%;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    border: solid 2px white;
+ }

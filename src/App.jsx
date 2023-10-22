@@ -1,6 +1,6 @@
 import './App.css'
 import AddTask from './components/AddTask'
-import './styles/estilos.css'
+import './styles/styles.scss'
 import Task from './components/Task'
 import { useState } from 'react'
 import Header from './components/AddHeader'
