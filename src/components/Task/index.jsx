@@ -1,4 +1,4 @@
-import styles from './styles.modules.scss'
+
 import {BsFillShareFill} from 'react-icons/bs'
 import {FaTrashAlt} from 'react-icons/fa'
 import {FaRegClipboard} from 'react-icons/fa'
